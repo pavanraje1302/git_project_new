@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CDAC HPC - Powered by Shivraj</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #f5f5f5;
+      color: #333;
+    }
+    header {
+      background: linear-gradient(to right, #002147, #005baa);
+      color: white;
+      padding: 20px 40px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      background: #004080;
+    }
+    nav a {
+      color: white;
+      padding: 14px 20px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      background: #0066cc;
+    }
+    section {
+      padding: 40px;
+    }
+    section h2 {
+      color: #004080;
+      margin-bottom: 20px;
+    }
+    .hero {
+      background: url('images/hpc_banner.jpg') no-repeat center center/cover;
+      color: white;
+      text-align: center;
+      padding: 100px 20px;
+    }
+    .hero h2 {
+      font-size: 2.5em;
+      text-shadow: 2px 2px 5px black;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+    }
+    .card {
+      background: white;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0px 4px 6px rgba(0,0,0,0.2);
+      transition: transform 0.2s;
+    }
+    .card:hover {
+      transform: scale(1.05);
+    }
+    .card img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+    }
+    .card h3 {
+      margin: 10px;
+      color: #004080;
+    }
+    .card p {
+      margin: 10px;
+      font-size: 0.9em;
+    }
+    footer {
+      background: #002147;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+    footer p {
+      margin: 0;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>CDAC High Performance Computing</h1>
+    <p>Powered by Shivraj</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#hpc">HPC Systems</a>
+    <a href="#achievements">Achievements</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section class="hero">
+    <h2>Pioneering Supercomputing in India</h2>
+    <p>Empowering Science, Research, and Innovation through HPC</p>
+  </section>
+
+  <section id="about">
+    <h2>About CDAC</h2>
+    <p>
+      The Centre for Development of Advanced Computing (C-DAC) is the premier R&D organization of the Ministry of Electronics and Information Technology, Government of India. 
+      CDAC is the driving force behind India’s supercomputing mission, national digital infrastructure, and cutting-edge technologies in AI, cybersecurity, and IoT.
+    </p>
+  </section>
+
+  <section id="hpc">
+    <h2>CDAC HPC Supercomputers</h2>
+    <div class="grid">
+      <div class="card">
+        <img src="images/param_siddhi.jpg" alt="PARAM Siddhi">
+        <h3>PARAM Siddhi-AI</h3>
+        <p>India’s fastest supercomputer with 5.267 Petaflops performance. Ranked in the Top 100 supercomputers globally.</p>
+      </div>
+      <div class="card">
+        <img src="images/param_brahma.jpg" alt="PARAM Brahma">
+        <h3>PARAM Brahma</h3>
+        <p>High-performance computing system at IISER Pune, enabling research in climate, chemistry, and advanced physics.</p>
+      </div>
+      <div class="card">
+        <img src="images/param_shavak.jpg" alt="PARAM Shavak">
+        <h3>PARAM Shavak</h3>
+        <p>A compact "Supercomputer-in-a-Box" designed for academic institutions and small enterprises.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="achievements">
+    <h2>Major Achievements</h2>
+    <ul>
+      <li>First Indian supercomputer PARAM 8000 (1991).</li>
+      <li>PARAM Siddhi ranked 62nd in the world (TOP500 list 2020).</li>
+      <li>Key contributor to the National Supercomputing Mission (NSM).</li>
+      <li>Deployment of supercomputers across IITs, IISERs, and National labs.</li>
+    </ul>
+  </section>
+
+  <section id="gallery">
+    <h2>Gallery</h2>
+    <div class="grid">
+      <img src="images/hpc_lab.jpg" alt="HPC Lab">
+      <img src="images/research_team.jpg" alt="Research Team">
+      <img src="images/param_history.jpg" alt="PARAM History">
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact CDAC</h2>
+    <p>Email: info@cdac.in</p>
+    <p>Website: <a href="https://www.cdac.in" target="_blank">www.cdac.in</a></p>
+    <p>Powered by Shivraj</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 CDAC HPC | Designed for Student Practice | Powered by Shivraj</p>
+  </footer>
+
+</body>
+</html>
